@@ -10,79 +10,46 @@
     <title>Instagram Photo Feed for Deucalinos</title>
     <script src="https://kit.fontawesome.com/9d612dda05.js" crossorigin="anonymous"></script>
 </head>
-<nav class="navbar navbar-expand-lg bg-light">
+<body>
+  <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
-    <i class="fa-brands fa-instagram"></i>
-  </li>
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
+    <span class="navbar-brand mb-0 h1"> <i class="fa-brands fa-instagram"></i>Instagram</span>
+    <span><div class="d-flex flex-row mb-3" >
+      <div>
+  <button type="button" class="btn btn-success">Create a new post</button>
+  <div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Create a new post.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Caption.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save </button>
+      </div>
     </div>
   </div>
-</nav>
+</div>
+      </div>
 
-<body>
-  <ul class="nav justify-content-start">
-    <li class="nav-item">
-      <i class="fa-brands fa-instagram">Instagram</i>
-    </li>
+           <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa-regular fa-gear"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Accessibility</a></li>
+            <li><a class="dropdown-item" href="#">Private Data</a></li>
+            <li><a class="dropdown-item text-color-danger" href="#">Sign Out</a></li>
+          </ul>
+      </div>  </span>
+  </div>
   
-  </ul>
-  <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <div class="modal" tabindex="-1">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Create new post</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p>Create a new post.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save</button>
-            </div>
-          </div>
-        </div>
-      </div>
-     
-    </li>
-    <li class="nav-item">
-      <!-- Example single danger button -->
-      <div class="dropdown">
-        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
-        <i class="fa-regular fa-gear"></i>
-      
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Profile</a></li>
-          <li><a class="dropdown-item" href="#">Accessibility/a></li>
-          <li><a class="dropdown-item" href="#">More</a></li>
-        </ul>
-      </div>
-  </ul>
+  </div>
+</nav>
   <div class="card-group">
     <div class="card">
       <img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" class="card-img-top" alt="...">
