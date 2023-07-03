@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Instagram Photo Feed for Deucalinos</title>
+    <script src="https://kit.fontawesome.com/9d612dda05.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1"> <i class="fa-brands fa-instagram"></i>Instagram</span>
+          <span><div class="d-flex flex-row mb-3" >
+            <div>
+        <button type="button" class="btn btn-success"><a href="#modal"> Create a new post</a> </button>
+        <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header" id="modal">
+              <h5 class="modal-title">Create a new post.</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Caption.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save </button>
+            </div>
+          </div>
+        </div>
+      </div>
+            </div>
+      
+                 <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa-regular fa-gear"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                  <li><a class="dropdown-item" href="#">Private Data</a></li>
+                  <li><a class="dropdown-item text-color-danger" href="#">Sign Out</a></li>
+                </ul>
+            </div>  </span>
+      </nav>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid justify-content-center">
+          <button class="btn btn-outline-secondary"><a href="#grid"></a><i class="fa-sharp fa-solid fa-grid"></i></button>
+          <button class="btn btn-outline-secondary"><a href="square.html"><i class="fa-solid fa-square"></i></a></button> 
+        </div>
+    <div class="row row-cols-1 row-cols-md-1 g-4" id="square">
+        <div class="col">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ--oncfzf42dr8cIsvGd8Yp52WuCuxpCmBYg&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">1M Likes</h5>
+              <p class="card-text">This is  a good example of a nft you can brag to hodl in instagram.But Hold your bags!! Scammers around,dude!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4uMwnANnimXgn2qGsKDvn9WEMJrussJSDaA&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">C500K Likes</h5>
+              <p class="card-text">This is  a good example of a nft you can brag to hodl in instagram.But Hold your bags!! Scammers around,dude!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ys-TUpZJZv_zzOwSYLfZRMwiswIITL-8BQ&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">2M Likes</h5>
+              <p class="card-text">This is  a good example of a nft you can brag to hodl in instagram.But Hold your bags!! Scammers around,dude!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">400K Likes</h5>
+              <p class="card-text">This is a kitty flufy post for cats lovers; if  you don´t love cats probably you are not that cool.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://okdiario.com/img/2023/01/03/gato-2-655x368.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">2M Likes</h5>
+              <p class="card-text">This is a kitty flufy post for cats lovers; if  you don´t love cats probably you are not that cool.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7r-0dSL1arIebqacOPtioy3vcLbYXyg0S_g&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">250K Likes</h5>
+              <p class="card-text">This is a kitty flufy post for cats lovers; if  you don´t love cats probably you are not that cool.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe1k_KkOMz8I3h2ImdtiZW1qhQ8f5QWuxkjA&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">4M Likes</h5>
+              <p class="card-text">This is how bored apes yacht club make flufy cats look less interesting.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-7TJjD0Alneir1KgW8fsh5na4bIj3OdZMaw&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">10 M Likes</h5>
+              <p class="card-text">This is how bored apes yacht club make flufy cats look less interesting.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa4ooz9X_iGyPzhv9F2FJpaFgW3QSHPCVP8g&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">1 M Likes</h5>
+              <p class="card-text">This is how bored apes yacht club make flufy cats look less interesting.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
